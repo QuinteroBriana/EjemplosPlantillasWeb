@@ -3,17 +3,78 @@
     margin: 0;
     padding: 0;
   }
+  body{
+    background-image: url(../img/fondo.jpg);
+  }
+
+  header{
+    text-align: center;
+    margin: 5px;
+    font-family: 'Festive', cursive;
+    font-size: 30px;
+    
+
+  }
+
+  header h1 span{
+    background-color: rgba(111, 177, 238, 0.815) ;
+    border-radius: 30px;
+    padding: 5px;
+  }
+
+  h2{
+    font-family: 'Festive', cursive;
+    font-size: 50px;
+  }
 
   main{
     display: flex;
-    justify-content: space-between;
-    margin: 4px;
+    justify-content: space-around;
+    margin: 10px;
+    text-align: center;
     }
     
   section{
-  background-color: grey ;
-  min-width: 33%;
-  width: 33%;
-  height: 98.5vh;
+  background-color: rgba(111, 177, 238, 0.815) ;
+  width: 32%;
+  height: 80vh;
+  border-radius: 15px ;
 
+  }
+
+  .fotito{
+    width: 200px;
+    height: 200px;
+    border:15px  outset;
+  }
+
+  #boton{
+    width: 15%;
+    height: auto;
+    
+  }
+
+  #boton:hover{
+    cursor: pointer;
+  }
+
+  div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+  }
+
+  ul{
+    list-style: none;
+    padding: 5px;
+  }
+
+  li{
+    padding: 2px;
+  }
+
+  b{
+    font-family: 'Festive', cursive; 
+    font-size: 20px;
   }
