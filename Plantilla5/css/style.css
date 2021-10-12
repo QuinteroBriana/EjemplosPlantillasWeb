@@ -1,0 +1,54 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+background-color: gray;
+min-height: 100px;
+height: 100px;
+margin: 5px;
+}
+nav{
+background-color: gray;
+min-height: 50px;
+height: 50px;
+margin: 5px;
+}
+
+main{
+display: flex;
+margin: 5px;
+justify-content: space-between;
+height: 67.5vh;
+}
+
+aside, section{
+
+}
+
+aside{
+  width: 15%;
+}
+
+
+section{
+  background-color: gray;
+  width: 69%;
+
+
+}
+
+article{
+  background-color: gray;
+  margin-bottom: 5px;
+  height: 40%;
+}
+
+footer{
+background-color: gray;
+min-height: 50px;
+height: 50px;
+margin: 5px;
+}

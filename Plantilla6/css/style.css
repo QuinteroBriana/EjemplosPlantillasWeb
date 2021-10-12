@@ -1,0 +1,45 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    display: flex;
+    justify-content: space-between;
+    height: 98.5vh;
+    margin: 5px;
+  }
+
+  nav{
+  background-color: gray;
+  width: 20%;
+  }
+
+  main{
+    width: 79.5%;
+  }
+
+  header{
+    background-color: hotpink;
+    height: 20%;
+    margin-bottom: 5px;
+  }
+  div#secciones{
+    display: flex;
+    justify-content: space-between;
+    height: 58.5%;
+    margin-bottom: 5px;
+  }
+
+  section{
+    background-color: indigo;
+    width: 49.7%;
+  }
+
+
+  footer{
+    background-color: hotpink;
+    height: 20%;
+    margin-bottom: 5px;
+  }

@@ -1,0 +1,36 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+background-color: gray;
+min-height: 100px;
+height: 100px;
+margin: 5px;
+}
+
+main{
+display: flex;
+margin: 5px;
+justify-content: space-between;
+height: 83.5vh;
+}
+
+aside{
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+section{
+  background-color: gray;
+  width: 59%;
+}
+
+article{
+  display: flex;
+  background-color: grey;
+  height: 33%;
+}

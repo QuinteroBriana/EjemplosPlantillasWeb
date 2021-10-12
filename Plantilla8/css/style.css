@@ -1,0 +1,35 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  header, main{
+    margin: 5px;
+  }
+    header{
+      background-color: gray;
+      height: 10vh;
+    }
+  
+    main{
+      display: flex;
+      height: 87.5vh;
+      justify-content: space-between;
+    }
+    section#dos{
+      display: flex;
+      width: 59%;
+      flex-direction: column;
+      justify-content: space-between;
+
+    }
+    section:first-of-type,section:last-of-type {
+      background-color: gray;
+      width: 20%;
+    }
+
+    article{
+ 
+      background-color: indigo;
+      height: 16%;
+    }
