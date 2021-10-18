@@ -70,10 +70,6 @@ article{
   justify-content: right;
 }
 
-svg:hover{
-  cursor: pointer;
-}
-
 #uno{
   background-image: url(../img/taco.jpeg);
 }
@@ -100,8 +96,9 @@ svg:hover{
 .informacion{
   align-items: center;
   background-color: rgba(255, 255, 255, 0.815);
-  padding: 50px;
+  padding: 30px;
   margin: 20%;
+  
   border-radius: 25px;
   border:5px dashed;
   text-align: center;

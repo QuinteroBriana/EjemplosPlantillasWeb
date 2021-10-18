@@ -3,18 +3,82 @@
   margin: 0;
   padding: 0;
 }
-
+body{
+  background-color: black;
+}
 header{
-background-color: gray;
-min-height: 100px;
-height: 100px;
+height: 117px;
 margin: 5px;
+border: 5px #B08BD7 double;
+display: flex;
+justify-content: space-between;
+}
+
+.encabezado{
+  display: flex;
+  color: #F9F097;
+  align-items: center;
+}
+
+.acceder{
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  padding-right: 50px;
+
+}
+
+h1{
+  font-family: 'Aladin', cursive;
+  font-size: 80px;
+}
+.mirar{
+  color: white;
+  font-size: 20px;
+  margin: 15px;
+  padding: 5px;
+  text-align: center;
+}
+
+.mirar:hover{
+  color:#B08BD7;
+}
+#boton{
+  border: 5px #B08BD7 double;
+}
+
+a{
+  font-family: 'Averia Libre', cursive;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+p{
+font-family: 'Averia Libre', cursive;
 }
 nav{
-background-color: gray;
-min-height: 50px;
+background-color:#B08BD7 ;
 height: 50px;
 margin: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+}
+
+#enmedio{
+  border-left-color: white;
+  border-left: 5px black double ;
+  border-right: 5px black double ;
+}
+
+.n{
+padding-left:100px;
+padding-right:100px ;
+}
+
+.n:hover{
+  color:white;
 }
 
 main{
@@ -24,31 +88,75 @@ justify-content: space-between;
 height: 67.5vh;
 }
 
-aside, section{
-
-}
-
 aside{
   width: 15%;
 }
 
 
 section{
-  background-color: gray;
   width: 69%;
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
 
 
+}
+section h2{
+text-align: center;
+font-family: 'Averia Libre', cursive;
+margin: 40px;
+font-size: 40px;
+padding: 30px;
+background-color: #b08bd793;
+}
+
+section button{
+  font-family: 'Averia Libre', cursive;
+  padding: 10px;
+  background-color: #B08BD7;
+
+}
+
+section button:hover{
+  cursor: pointer;
+  background-color: #c499f8;
 }
 
 article{
-  background-color: gray;
-  margin-bottom: 5px;
+  background-color: #F9F097;
+  margin: 8px;
   height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+article p{
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+footer{
+background-color: #B08BD7;
+height: 34px;
+margin: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
-footer{
-background-color: gray;
-min-height: 50px;
-height: 50px;
-margin: 5px;
+footer a{
+  margin: 50px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.562);
+}
+
+footer a:hover{
+  color:white;
 }

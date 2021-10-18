@@ -7,39 +7,119 @@
   body{
     display: flex;
     justify-content: space-between;
-    height: 98.5vh;
-    margin: 5px;
+    background-color: #6CD5E8;
   }
 
   nav{
-  background-color: gray;
-  width: 20%;
+  background-color: #1a5d728a;
+  width: 270px;
+  height: 695px;
+  border:2px white solid;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ padding: 10px;
+  }
+
+  #redes{
+    background-color: #6CD5E8;
+    border-radius: 10px;
+    border-top-left-radius: 0%;
+    border:1px white solid;
+    font-size: 50px;
+  }
+
+  .icon-tabler-brand-facebook,.icon-tabler-brand-instagram, .icon-tabler-brand-whatsapp,.icon-tabler-brand-messenger{
+    cursor: pointer;
+  }
+
+   nav h2{
+     margin: 10px;
+    color: white;
+    text-align: center;
   }
 
   main{
     width: 79.5%;
+    height: 675px;
+    margin-right: 5px;
+  }
+#logo{
+  width: 300px;
+  height: auto;
+}
+  header{
+    background-color: #1A5E72;
+    height: 11%;
+    margin-top: 10px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
   }
 
-  header{
-    background-color: hotpink;
-    height: 20%;
-    margin-bottom: 5px;
+  #op{
+    padding-top: 30px;
+    margin-right: 60px;
   }
+
+  a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 20px;
+  }
+
+  a:hover{
+    color:black ;
+  }
+
   div#secciones{
     display: flex;
     justify-content: space-between;
-    height: 58.5%;
-    margin-bottom: 5px;
+    height: 80%;
   }
 
   section{
-    background-color: indigo;
     width: 49.7%;
-  }
+    margin:10px;
+    border:5px ridge;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 90px;
+  
 
+  }
+  #uno{
+    background-image: url(../img/cara1.jpg);
+    background-position:center center;
+  }
+  #dos{
+    background-image: url(../img/cara2.jpg);
+    background-position:center center;
+  }
 
   footer{
-    background-color: hotpink;
-    height: 20%;
-    margin-bottom: 5px;
+    background-color: #1A5E72;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    margin-right: 1px;
+    font-family: 'Roboto', sans-serif;
   }
+  footer p{
+    margin: 10px;
+  }
+
+  #pre{
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+
+  }
+
+  .iconos{
+    display: flex;
+  margin-left: 50px;}
+

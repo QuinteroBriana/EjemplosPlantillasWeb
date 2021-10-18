@@ -7,24 +7,96 @@
 header, footer, main, div#secciones{
   margin: 5px;
 }
-  header, footer{
-    background-color: gray;
+  header{
+    display: flex;
     height: 10vh;
+    align-items: center;
+
   }
 
+  .logo{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-family: 'Akronim', cursive;
+    font-style:italic;
+    font-size: 30px;
+  }
+  nav{
+
+    margin-top: 50px;
+    margin-left: 5%;
+  }
+
+  a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Saira', sans-serif;
+    font-size: 20px;
+  }
+
+  a:hover{
+    color: blue;
+  }
+  
+
   main{
+    display: flex;
     background-color: greenyellow;
     height: 55vh;
+    background-size: cover;
+    background-image: url(../img/Galeria.jpg);
+    background-position:center center;
+    font-family: 'Saira', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    
+
   }
+
+h1 b{
+  font-size: 90px;
+  background-color: rgba(255, 255, 255, 0.301);
+}
+
 
   div#secciones{
     display: flex;
-    height: 21vh;
+    height: 26vh;
     justify-content: space-between;
   }
 
   section{
-    background-color: greenyellow;
+    display: flex;
     width: 33%;
+    background-size: cover;
+    background-position:center center;
+    justify-content: space-between;
+    align-items: center;
+
 
   }
+ 
+  svg:hover{
+    cursor: pointer;
+  }
+
+  #uno{
+    background-image: url(../img/arts.jpg);
+  }
+  #dos{
+    background-image: url(../img/estrellada.jpg);
+  }
+  
+  #tres{
+    background-image: url(../img/Torre.jpeg);
+  }
+
+  footer{
+    display: flex;
+    justify-content: right;
+    height: 5vh;
+  }
+
